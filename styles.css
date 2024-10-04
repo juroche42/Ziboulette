@@ -1,0 +1,182 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #ffcc80;
+    color: #333;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff7043;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #ff5722;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    color: #ff5722;
+}
+
+/* Section Présentation */
+section#presentation {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section#presentation h2 {
+    font-size: 2.5rem;
+    color: #ff7043;
+}
+
+section#presentation p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Section Features */
+section#features {
+    background-color: #ffcc80;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section#features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ff7043;
+}
+
+.feature-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    display: inline-block;
+}
+
+.feature-box h3 {
+    font-size: 1.5rem;
+    color: #ff7043;
+}
+
+.feature-box p {
+    font-size: 1rem;
+}
+
+/* Section Témoignages */
+section#testimonials {
+    background-color: #fff3e0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ff7043;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 20px auto;
+    max-width: 700px;
+    color: #555;
+    border-left: 5px solid #ff5722;
+    padding-left: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffcc80;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff7043;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.2rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .feature-box {
+        max-width: 100%;
+    }
+}
