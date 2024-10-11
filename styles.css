@@ -85,6 +85,43 @@ section#presentation p {
     margin: 20px auto;
 }
 
+/* Section Présentation */
+section#presentation {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+}
+
+.presentation-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.presentation-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    flex: 1 1 300px;
+}
+
+.presentation-text {
+    flex: 1 1 300px;
+    max-width: 600px;
+}
+
+.presentation-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff7043;
+}
+
+.presentation-text p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
 /* Section Features */
 section#features {
     background-color: #ffcc80;
