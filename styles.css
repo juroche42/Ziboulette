@@ -277,25 +277,25 @@ section#contact button:hover {
 }
 
 /* Section Menu */
-section#menu {
+section#meal {
     background-color: #fff;
     padding: 60px 20px;
     text-align: center;
 }
 
-section#menu h2 {
+section#meal h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #ff7043;
 }
 
-section#menu p {
+section#meal p {
     font-size: 1.2rem;
     max-width: 800px;
     margin: 20px auto;
 }
 
-section#menu .menu-item {
+section#meal .menu-item {
     display: inline-block;
     width: 300px;
     margin: 20px;
@@ -306,24 +306,24 @@ section#menu .menu-item {
     text-align: left;
 }
 
-section#menu .menu-item img {
+section#meal .menu-item img {
     width: 100%;
     border-radius: 10px;
 }
 
-section#menu .menu-item h3 {
+section#meal .menu-item h3 {
     font-size: 1.5rem;
     margin: 10px 0;
     color: #333;
 }
 
-section#menu .menu-item p {
+section#meal .menu-item p {
     font-size: 1rem;
     margin: 5px 0;
     color: #666;
 }
 
-section#menu .menu-item button {
+section#meal .menu-item button {
     background-color: #ff7043;
     color: #fff;
     padding: 10px 20px;
@@ -334,7 +334,7 @@ section#menu .menu-item button {
     margin-top: 10px;
 }
 
-section#menu .menu-item button:hover {
+section#meal .menu-item button:hover {
     background-color: #ff5722;
 }
 
