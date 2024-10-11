@@ -15,10 +15,9 @@
         <nav>
             <ul>
                 <li><a href="#">Accueil</a></li>
-                <li><a href="#">Notre Concept</a></li>
-                <li><a href="#">Nos Menus</a></li>
-                <li><a href="#">Commander</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#presentation">Notre Concept</a></li>
+                <li><a href="#menu">Nos Menus</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <h1>Bienvenue chez <strong>Ziboulette</strong> !</h1>
@@ -48,6 +47,49 @@
         </div>
     </section>
 
+    <section id="menu">
+        <h2>Nos Menus</h2>
+        <p>Découvrez nos menus de la semaine et choisissez celui qui vous fait envie !</p>
+        <div class="menu-item">
+            <img src="images/menu1.webp" alt="Menu 1">
+            <h3>Menu 1</h3>
+            <p>Salade de Quinoa aux Légumes d'Été</p>
+            <p>Smoothie aux Fruits Rouges</p>
+            <p>Barre Énergétique aux Noix</p>
+            <button>Commander</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/menu2.webp" alt="Menu 2">
+            <h3>Menu 2</h3>
+            <p>Bol de Riz Complet aux Légumes Rôtis</p>
+            <p>Smoothie Vert Détox</p>
+            <p>Muffin à la Banane</p>
+            <button>Commander</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/menu3.webp" alt="Menu 3">
+            <h3>Menu 3</h3>
+            <p>Pâtes au Pesto de Roquette</p>
+            <p>Smoothie à la Mangue</p>
+            <p>Barre Énergétique aux Noix</p>
+            <button>Commander</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Vous avez des questions ou des commentaires ? N'hésitez pas à nous contacter !</p>
+        <form action="submit.php" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
     <section id="testimonials">
         <h2>Ce qu'ils disent de Ziboulette</h2>
         <blockquote>
@@ -57,7 +99,7 @@
             "Je n'aurais jamais cru que des plats végétaliens puissent être aussi créatifs. Mon enfant adore les couleurs et les formes ! Merci Ziboulette." – Thomas
         </blockquote>
     </section>
-    
+
     <footer>
         <p>&copy; 2024 Ziboulette. Tous droits réservés.</p>
         <p>Suivez-nous sur <a href="#">Instagram</a> et <a href="#">Facebook</a> pour des recettes et des offres exclusives !</p>
