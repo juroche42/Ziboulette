@@ -188,14 +188,14 @@ footer {
 footer p {
     margin: 5px 0;
 }
-
 footer a {
-    color: #ffcc80;
-    text-decoration: none;
+    color: #ff7043; /* Couleur du lien */
+    text-decoration: underline; /* Soulignement pour distinguer les liens */
 }
 
 footer a:hover {
-    color: #ff7043;
+    color: #ff5722; /* Couleur du lien au survol */
+    text-decoration: none; /* Retirer le soulignement au survol pour indiquer l'interaction */
 }
 
 /* Responsive Design */
@@ -337,3 +337,4 @@ section#menu .menu-item button {
 section#menu .menu-item button:hover {
     background-color: #ff5722;
 }
+
